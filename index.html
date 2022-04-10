@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html>
+    <body>
+        <title>PROYECTO #1</title>
+        
+    <section id="seccion1">
+    <input type="text" id="myText" value="">
+    <link href="styles/estilos.css" rel="stylesheet" type="text/css">
+    
+    
+    <button id="myBtn"  onclick="contador++;myFunction()">MAS</button>
+    <button id="myBtn2" onclick="contador--;myFunction()">MENOS</button>
+    </section>
+    
+    <p id="demo"></p>
+    
+    <script>
+    var contador = 0;
+    
+    function myFunction(tipo) {
+        var x = parseInt(document.getElementById("myText").value);
+        x = x + contador;
+        document.getElementById("demo").innerHTML = x; 
+    }
+    </script>
+    
+    </body>
+    </html>

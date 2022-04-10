@@ -1,0 +1,30 @@
+body {
+    color: rgba(8, 226, 255, 0.884);
+    background-color:black;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#myText{
+    color: rgb(251, 247, 253);
+    background-color: rgb(125, 59, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: 3px solid seashell;
+}
+#myBtn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(14, 241, 44);
+    font-family:cursive;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
+#myBtn2{
+    color:rgb(0, 0, 0);
+    background-color:rgb(245, 4, 4);
+    font-family:cursive;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+}
